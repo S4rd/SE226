@@ -1,0 +1,11 @@
+name = input("What is your name? \n")
+labGrade = int(input("What is lab grade? \n"))
+midtermGrade = int(input("What is midterm grade?\n"))
+finalGrade = int(input("What is final grade? \n"))
+
+lastScore = (labGrade * 0.25 + midtermGrade * 0.35 + finalGrade * 0.40)
+print("Name: ", name)
+print("Lab: ", labGrade)
+print("Midterm: ", midtermGrade)
+print("Final: ", finalGrade)
+print("Last Score: ", lastScore)
